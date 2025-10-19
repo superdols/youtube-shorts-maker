@@ -3,7 +3,7 @@ from google.adk.models.lite_llm import LiteLlm
 from .prompt import CONTENT_PLANNER_DESCRIPTION, CONTENT_PLANNER_PROMPT
 from .models import ContentPlanOutput
 
-MODEL = LiteLlm(model="openai/gpt-4o")
+MODEL = LiteLlm(model="openai/gpt-4o-mini")
 
 content_planner_agent = Agent(
     name="ContentPlannerAgent",
